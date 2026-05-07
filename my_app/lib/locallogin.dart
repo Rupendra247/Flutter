@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/logout.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalLogin extends StatelessWidget {
@@ -23,7 +24,7 @@ class LocalLogin extends StatelessWidget {
     enterdpassword == savedPassword){
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => ListView())
+        MaterialPageRoute(builder: (context) => LogOut())
       );
     } else{
       ScaffoldMessenger.of(context)

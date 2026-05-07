@@ -5,6 +5,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var username;
+    var password;
     return Scaffold(
           body: Column(
         children: [  
