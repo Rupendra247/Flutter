@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/locallogin.dart';
+import 'package:my_app/screen/locallogin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LogOut extends StatelessWidget {
