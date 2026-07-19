@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:homework/register.dart';
+// import 'package:homework/register.dart';
+import 'package:homework/validation.dart';
 
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Login',
-      home: const Register(),
+      home:  Validation(),
     
       // home: const CardDesign()
     );
